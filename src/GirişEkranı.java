@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  */
 public class GirişEkranı extends javax.swing.JFrame {
         String name = "Elif";
-        String password = "12345";
+        String password = "123456";
     /**
      * Creates new form GirişEkranı
      */
