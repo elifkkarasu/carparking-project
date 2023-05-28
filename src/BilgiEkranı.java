@@ -140,7 +140,7 @@ public class BilgiEkranı extends javax.swing.JFrame {
                 m_txtnumara.getText().equals("") || m_txtplaka.getText().equals("") ||
                 m_txtsaat.getText().equals(""))
             {
-                JOptionPane.showMessageDialog(this, "Boş yerleri doldurunuz!", "Uyari", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(this, "Boş yerleri lütfen doldurunuz!", "Uyari", JOptionPane.WARNING_MESSAGE);
 
             }
             else
@@ -152,7 +152,7 @@ public class BilgiEkranı extends javax.swing.JFrame {
             }
         }
         catch(HeadlessException e){
-            //   String save_message= "Kayıt tamamlandı";
+            //   String save_message= "Kayıt tamamlanmıştır";
             JOptionPane.showMessageDialog(rootPane, "Hata");
         }
 
