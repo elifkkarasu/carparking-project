@@ -74,6 +74,7 @@ public class Karar extends javax.swing.JFrame {
     private void m_bhayırActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_bhayırActionPerformed
 
        Sonlandır son = new Sonlandır();
+        
        son.setVisible(true);
        dispose();
     }//GEN-LAST:event_m_bhayırActionPerformed
